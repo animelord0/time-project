@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+nav {
+  width: 20vh;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 10px 10px;
+}
+nav h3 {
+  color: rgb(110, 173, 228);
+  text-transform: capitalize;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.nav-links li a {
+  color: black;
+  text-transform: capitalize;
+}
+.nav-links li a:hover {
+  color: rgb(110, 173, 228);
+}
+
+main {
+  display: flex;
+  height:100vh ;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  outline: 1px red solid;
+}
+
+.counter {
+  text-align: center;
+}
+.counter h1 {
+  font-size: 3.3rem;
+  color: rgb(58, 60, 61);
+}
+.counter span {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.button-class button {
+  margin: 0px 5px;
+}
+.btn {
+  height: 30px;
+  width: 70px;
+  outline: 1px solid black;
+  background: transparent;
+  font-weight: 500;
+  border-radius: 4px;
+  box-shadow: 2px 2px 5px;
+  padding: 5px;
+}
+
+button:hover {
+  background: black;
+  color: white;
+}
